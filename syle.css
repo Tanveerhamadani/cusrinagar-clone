@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+nav{
+   
+    height: auto;
+    padding-top: 1rem;
+
+    display: grid;
+    grid-template-columns: 0.6fr auto auto;
+    grid-template-rows: 0.5fr 0.5fr 0.8fr;
+    gap: 0.8rem 0rem;
+}
+
+.logo{
+    grid-column: 1/4;
+}
+
+.social-media-icons img, .student-sign-in img , .university-sign-in img{
+    height: 1.5rem;
+}
+
+.center{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    gap: 0.3rem;
+}
+
+.student-sign-in , .university-sign-in{
+
+    font-weight: bold;
+    color: #584e4e;
+    font-size: 0.8rem;
+   
+
+}
+
+.nav-bar{
+    background: #08081e;
+    grid-column: 1/4;
+}
+/* .burger-menu{
+    background: white;
+
+} */
+
+
+main{
+    width: 100%;
+    height: 300vh;
+    border: 1px  solid black;
+    
+    
+}
+
+.main-container{
+    margin: 0 auto;
+    height:100vh;
+    width: 95%;
+    display: grid;
+    grid-template-columns: 4fr;
+    grid-template-rows: 0.1fr 2.5rem auto;
+    margin-top: 1rem;
+    row-gap: 0.6rem;
+    
+    
+}
+
+.image-slider{
+    border-radius: 0.4rem;
+    box-shadow: 0 0 5px #786868;
+
+    
+}
+
+.image-conatiner{
+    background: lightseagreen;
+    height: 47vh;
+    width: 98%;
+    margin: 0.2rem;
+}
+
+.text-slider{
+    background: #08081e;
+    color: white;
+    
+
+}
+
+.text-marquee{
+    /* width="100%" direction="left" height="100px" */
+    padding-top:0.5rem;
+    font-style: italic;
+    
+
+}
+
+.notification-container{
+
+}
+                        
