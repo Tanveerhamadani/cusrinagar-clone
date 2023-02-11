@@ -9,6 +9,7 @@
 nav{
    
     height: auto;
+    max-width: 90%;
     padding-top: 1rem;
 
     display: grid;
@@ -19,6 +20,7 @@ nav{
 
 .logo{
     grid-column: 1/4;
+    
 }
 
 .social-media-icons img, .student-sign-in img , .university-sign-in img{
